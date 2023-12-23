@@ -22,7 +22,7 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7621"
-            targets: "G-AX1800"
+            targets: "G-AX1800 HAR-20S2U1"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
