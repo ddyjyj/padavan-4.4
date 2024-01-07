@@ -23,6 +23,8 @@ jobs:
         include:
           - build_variant: "mt7621"
             targets: "G-AX1800 HAR-20S2U1"
+          - build_variant: "mt7621-usb"
+            targets: "RE-SP-01B"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
