@@ -22,7 +22,7 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7621"
-            targets: "G-AX1800 HAR-20S2U1"
+            targets: "G-AX1800 HAR-20S2U1 JCG-Q20"
           - build_variant: "mt7621-usb"
             targets: "RE-SP-01B"
     steps:
